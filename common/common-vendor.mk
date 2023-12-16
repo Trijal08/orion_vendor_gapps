@@ -49,12 +49,20 @@ PRODUCT_PACKAGES += \
 	GoogleServicesFramework \
 	SetupWizard
 
-# Include Google Dialer and Message
-ifeq ($(EXTRA_GAPPS), true)
+# Conditionally build Google Contacts Dialer or Message
+ifeq ($(BUILD_GOOGLE_CONTACTS), true)
 PRODUCT_PACKAGES += \
-	GoogleContacts \
-	GoogleDialer \
-	PrebuiltBugle
+    GoogleContacts
+endif
+	
+ifeq ($(BUILD_GOOGLE_DIALER), true)
+PRODUCT_PACKAGES += \
+    GoogleDialer
+endif
+	
+ifeq ($(BUILD_GOOGLE_MESSAGE), true)
+PRODUCT_PACKAGES += \
+    PrebuiltBugle
 endif
 
 # Libraries
