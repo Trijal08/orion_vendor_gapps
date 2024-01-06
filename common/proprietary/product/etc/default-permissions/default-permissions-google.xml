@@ -41,4 +41,10 @@
     <permission name="android.permission.BLUETOOTH_ADVERTISE" fixed="false"/>
   </exception>
 
+    <exception
+        package="com.google.android.deskclock">
+        <!-- Notifications -->
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+
 </exceptions>
