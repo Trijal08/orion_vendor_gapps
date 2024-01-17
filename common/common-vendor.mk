@@ -70,7 +70,10 @@ endif
 	
 ifeq ($(BUILD_GOOGLE_DIALER), true)
 PRODUCT_PACKAGES += \
-    GoogleDialer
+    GoogleDialer \
+    GoogleDialerOverlay \
+    GmsTelecommOverlay \
+    GmsTelephonyOverlay
 endif
 	
 ifeq ($(BUILD_GOOGLE_MESSAGE), true)
