@@ -85,4 +85,4 @@ PRODUCT_PACKAGES += \
     com.google.android.dialer.support
 
 PRODUCT_SOONG_NAMESPACES += vendor/gapps/overlay
-PRODUCT_PACKAGES += GmsOverlay GmsSettingsProviderOverlay
+PRODUCT_PACKAGES += GmsOverlay GmsSettingsProviderOverlay GmsSetupWizardOverlay
