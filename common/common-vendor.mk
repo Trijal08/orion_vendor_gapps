@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
 	PrebuiltDeskClockGoogle \
 	PrebuiltExchange3Google \
 	SpeechServicesByGoogle \
-	SoundPicker \
 	talkback \
 	VisionBarcodePrebuilt
 

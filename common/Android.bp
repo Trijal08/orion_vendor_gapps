@@ -121,18 +121,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoundPicker",
-	owner: "gapps",
-	apk: "proprietary/product/app/SoundPicker/SoundPicker.apk",
-	overrides: ["SoundPicker"],
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "PrebuiltExchange3Google",
 	owner: "gapps",
 	apk: "proprietary/product/app/PrebuiltExchange3Google/PrebuiltExchange3Google.apk",
