@@ -12,6 +12,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk",
 	overrides: ["PrintRecommendationService"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -23,6 +24,7 @@ android_app_import {
 	overrides: ["ExactCalculator"],
 	owner: "gapps",
 	apk: "proprietary/product/app/CalculatorGoogle/CalculatorGoogle.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -35,6 +37,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/app/CalendarGoogle/CalendarGoogle.apk",
 	overrides: ["Calendar2", "Calendar", "Etar"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -47,6 +50,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/app/GoogleContacts/GoogleContacts.apk",
 	overrides: ["Contacts", "Contacts2"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -58,6 +62,7 @@ android_app_import {
 	name: "GoogleCalendarSyncAdapter",
 	owner: "gapps",
 	apk: "proprietary/product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -69,6 +74,7 @@ android_app_import {
 	name: "GoogleContactsSyncAdapter",
 	owner: "gapps",
 	apk: "proprietary/product/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -81,6 +87,7 @@ android_app_import {
 	overrides: ["LatinIME"],
 	owner: "gapps",
 	apk: "proprietary/product/app/LatinImeGoogle/LatinImeGoogle.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -92,6 +99,7 @@ android_app_import {
 	name: "MarkupGoogle",
 	owner: "gapps",
 	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -103,6 +111,7 @@ android_app_import {
 	name: "NgaResources",
 	owner: "gapps",
 	apk: "proprietary/product/app/NgaResources/NgaResources.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -115,6 +124,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk",
 	overrides: ["AlarmClock", "DeskClock"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -126,6 +136,7 @@ android_app_import {
 	name: "PrebuiltExchange3Google",
 	owner: "gapps",
 	apk: "proprietary/product/app/PrebuiltExchange3Google/PrebuiltExchange3Google.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -137,6 +148,7 @@ android_app_import {
 	name: "SpeechServicesByGoogle",
 	owner: "gapps",
 	apk: "proprietary/product/app/SpeechServicesByGoogle/SpeechServicesByGoogle.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -148,6 +160,7 @@ android_app_import {
 	name: "talkback",
 	owner: "gapps",
 	apk: "proprietary/product/app/talkback/talkback.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -166,6 +179,7 @@ android_app_import {
 	name: "AndroidAutoStub",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/AndroidAutoStub/AndroidAutoStub.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -179,6 +193,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/GoogleDialer/GoogleDialer.apk",
 	overrides: ["Dialer"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -192,6 +207,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk",
 	overrides: ["NetworkRecommendation"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -204,6 +220,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_AdsDynamite",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_AdsDynamite.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -216,6 +233,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_CronetDynamite",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_CronetDynamite.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -228,6 +246,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_DynamiteLoader",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteLoader.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -240,6 +259,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_DynamiteModulesA",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteModulesA.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -252,6 +272,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_DynamiteModulesC",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteModulesC.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -264,6 +285,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_GoogleCertificates",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_GoogleCertificates.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -276,6 +298,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_MapsDynamite",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_MapsDynamite.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -288,6 +311,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreSc_MeasurementDynamite",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_MeasurementDynamite.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -312,6 +336,7 @@ android_app_import {
 	name: "MlkitBarcodeUIPrebuilt",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -324,6 +349,7 @@ android_app_import {
 	name: "VisionBarcodePrebuilt",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -336,6 +362,7 @@ android_app_import {
 	name: "GooglePartnerSetup",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -348,6 +375,7 @@ android_app_import {
 	name: "GoogleRestore",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/GoogleRestore/GoogleRestore.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -360,6 +388,7 @@ android_app_import {
 	name: "Phonesky",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/Phonesky/Phonesky.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -373,6 +402,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk",
 	overrides: ["messaging"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -385,6 +415,7 @@ android_app_import {
 	name: "Velvet",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/Velvet/Velvet.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -397,6 +428,7 @@ android_app_import {
 	name: "WellbeingPrebuilt",
 	owner: "gapps",
 	apk: "proprietary/product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -409,6 +441,7 @@ android_app_import {
 	name: "GoogleFeedback",
 	owner: "gapps",
 	apk: "proprietary/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -421,6 +454,7 @@ android_app_import {
 	name: "GoogleServicesFramework",
 	owner: "gapps",
 	apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -434,6 +468,7 @@ android_app_import {
 	owner: "gapps",
 	apk: "proprietary/system_ext/priv-app/SetupWizard/SetupWizard.apk",
 	overrides: ["Provision"],
+    preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
