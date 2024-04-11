@@ -31,7 +31,9 @@ PRODUCT_PACKAGES += \
 	PrebuiltExchange3Google \
 	SpeechServicesByGoogle \
 	talkback \
-	VisionBarcodePrebuilt
+	TrichromeLibrary64 \
+	VisionBarcodePrebuilt \
+    WebViewGoogle64
 
 # Product priv-apps
 PRODUCT_PACKAGES += \
