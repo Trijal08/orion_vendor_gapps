@@ -82,6 +82,12 @@ PRODUCT_PACKAGES += \
     PrebuiltBugle
 endif
 
+# Conditionally build Pixel Launcher
+ifeq ($(strip $(TARGET_DEFAULT_PIXEL_LAUNCHER)),true)
+PRODUCT_PACKAGES += \
+    NexusLauncherRelease
+endif
+
 # Libraries
 PRODUCT_PACKAGES += \
     com.google.android.dialer.support
